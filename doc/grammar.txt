@@ -1,0 +1,18 @@
+Simple Infix Notation Calculator
+Lucy Wyman
+
+Formal Grammar:
+  Int = Integer
+
+  Operator      = + 
+                | - 
+                | *
+                | /
+
+  Expression    = Expression Operator Expression
+                | Int
+
+Examples:
+
+1 + 2
+3 * 4 + 7 * 8
